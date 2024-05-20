@@ -15,7 +15,7 @@ class Partition:
             """Return element stored at this position."""
             return self._element
     
-    # ----------- public Partition methods ---------
+    # ---------- public Partition methods --------
     def make_group(self, e):
         """Make a new group containing element e, and returns its Position."""
         return self.Position(self, e)
